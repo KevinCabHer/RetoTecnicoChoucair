@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project Using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e62bd0d7d6c44ffecead2afeba7e4f3338522b07a477f60029bdd725a1676af2.html">Kevin Registration On The Automation Page</a></span>
+                > <span class="truncate-60"><a
+                    href="be1778fab06bf3bfa138da68a8e97344e5d7cde343c5cdd468803ee4b3a551c6.html">Kevin registration on the automation page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-04-2022 00:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Kevin Registration On The Automation Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Kevin registration on the automation page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="bf05e27ef9f50aa231e1e1f71b63b736d26e1e79c0924ea634856067d96de49c.png" title=" Given Kevin wants to register on the automation page" width="1366"/>
+                <img src="bf05e27ef9f50aa231e1e1f71b63b736d26e1e79c0924ea634856067d96de49c.png" title=" Kevin open page automation" width="1366"/>
+                <img src="bf05e27ef9f50aa231e1e1f71b63b736d26e1e79c0924ea634856067d96de49c.png" title=" Kevin opens the Page automation" width="1366"/>
+                <img src="4612ef36dd8c0303362ac217239152dc420d5060c059d666c21265eb9ab12075.png" title=" Kevin clicks on Boton para ingresar al registro" width="1366"/>
+                <img src="4612ef36dd8c0303362ac217239152dc420d5060c059d666c21265eb9ab12075.png" title=" Kevin open page automation (completed)" width="1366"/>
+                <img src="4612ef36dd8c0303362ac217239152dc420d5060c059d666c21265eb9ab12075.png" title=" Given Kevin wants to register on the automation page (completed)" width="1366"/>
+                <img src="9a68472134c4785cd69d0cd95ec20fb0718fe676775d1f0cad185a79974296c3.png" title=" When Enter all the required information
+| strNombre | strApellido | strDireccion | strCorreo | strTelefono | strIdioma | strHabilidades | strPais | strAno | strMes | strDia | strClave1 | strClave2 |
+| Kevin | Caballero | AV. 0 #4-24 | kevin@gmail.com | 3203700456 | Arabic | C | Japan | 1995 | October | 24 | Kc12345 | Kc12345 |" width="1366"/>
+                <img src="9a68472134c4785cd69d0cd95ec20fb0718fe676775d1f0cad185a79974296c3.png" title=" Kevin page register date" width="1366"/>
+                <img src="9a68472134c4785cd69d0cd95ec20fb0718fe676775d1f0cad185a79974296c3.png" title=" Kevin enters 'Kevin' into Nombre del usuario" width="1366"/>
+                <img src="2851fb18b5b5b99e47e256aca18d85b1b2bde4eeffa5af97f31d6de5d7633e0e.png" title=" Kevin enters 'Caballero' into Apellido del usuario" width="1366"/>
+                <img src="db8bbae186ce07c5cb1f87e16cb4a7acde3222dd67f44109831cc84cd35be064.png" title=" Kevin enters 'AV. 0 #4-24' into Direcci&Atilde;&sup3;n del usuario" width="1366"/>
+                <img src="09486dfe86bf4cd9034509ef33f8ac751adbd3021de888d4c672fa31e5930de2.png" title=" Kevin enters 'kevin@gmail.com' into Correo del usuario" width="1366"/>
+                <img src="01f8a20f92d1d1a9b5514daed936bc7b62c5c774133cf7d3693243a3bce7d17f.png" title=" Kevin enters '3203700456' into Telefono del usuario" width="1366"/>
+                <img src="6fb72d4fd927999600b0daad1f9cb7761fb85992cc74817a9cbd8e4eefaa6e72.png" title=" Kevin clicks on Check Genero del usuario" width="1366"/>
+                <img src="4e5e95bcc22e01c83e9f0ee39c8ced9903b6dceb929e5dea15fcd9b7eca6feab.png" title=" Kevin clicks on Check Apellido del usuario" width="1366"/>
+                <img src="94262a22377ddc582373f7eeab1fcba69431e6b62b8b4a84b4c330f090a43331.png" title=" Kevin clicks on Contenedor Idioma del usuario" width="1366"/>
+                <img src="2ec0a221d1289d1e3d69a790bf4296d8690d5f41b746cd2658855ec5d4eeccc4.png" title=" Kevin clicks on Idioma del usuario" width="1366"/>
+                <img src="bcaf5bb8a844510250acd6e0af2b9d47458f5e16f151c48a20b62a96982db498.png" title=" Kevin select C on Habilidiades del usuario" width="1366"/>
+                <img src="05b618f239ae864ec094136b38b41f0e7404421664288a3efd8bffbc189d3dfa.png" title=" Kevin clicks on Pais del usuario" width="1366"/>
+                <img src="9b820aecbf415fe20149f1171977e373d4fa80c3162cdd1078849d7e6fc4b5c8.png" title=" Kevin enters 'Japan' into Pais del usuario" width="1366"/>
+                <img src="cddff417356ea5a58f705c8548c91ae0d2e5a56c5e5eb714b83ebca18a98f161.png" title=" Kevin types 'ENTER' in Pais del usuario" width="1366"/>
+                <img src="02a5443169ace252bf9b0ad55cd7db74baaa0456dd190d4a54a0bfd27daeb732.png" title=" Kevin select 1995 on Ano del usuario" width="1366"/>
+                <img src="b294b6bce7823529aa525e74995e01b26848010379d1e66c110a364efc2d68f2.png" title=" Kevin select October on Mes del usuario" width="1366"/>
+                <img src="f5f06454b0773aadfa26d538b4c27bf6870ad6e1702e7761709ddf2264655998.png" title=" Kevin select 24 on Dia del usuario" width="1366"/>
+                <img src="43bd6e7be4bf493468d996fc77910d5ed2757337c485d4bc3ee7f365ef5f11f2.png" title=" Kevin enters 'Kc12345' into Clave1 del usuario" width="1366"/>
+                <img src="aae5cbc73baa93dc73c26f9bfc71cc069ea0d45b32b3c32987591813a884256e.png" title=" Kevin enters 'Kc12345' into Clave2 del usuario" width="1366"/>
+                <img src="2c30400074397f2ea09596598eb095c3ca42746c200d94c45ed50ffac3e5319a.png" title=" Kevin clicks on Boton registrar datos" width="1366"/>
+                <img src="2c30400074397f2ea09596598eb095c3ca42746c200d94c45ed50ffac3e5319a.png" title=" Kevin page register date (completed)" width="1366"/>
+                <img src="2c30400074397f2ea09596598eb095c3ca42746c200d94c45ed50ffac3e5319a.png" title=" When Enter all the required information
+| strNombre | strApellido | strDireccion | strCorreo | strTelefono | strIdioma | strHabilidades | strPais | strAno | strMes | strDia | strClave1 | strClave2 |
+| Kevin | Caballero | AV. 0 #4-24 | kevin@gmail.com | 3203700456 | Arabic | C | Japan | 1995 | October | 24 | Kc12345 | Kc12345 | (completed)" width="1366"/>
+                <img src="be143ff3b09c46cde4a1aea45e9f844a17d0448ee7d248e56a331963de66f686.png" title=" Then registration is completed successfully: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
